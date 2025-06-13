@@ -4,8 +4,8 @@ import java.util.Base64;
 import org.json.JSONObject;
 
 public class AccessTokenManager {
-    private static final String CLIENT_ID = "PUT YOUR CLIENT ID";
-    private static final String CLIENT_SECRET = "PUT YOUR CLIENT SECRET";
+    private static final String CLIENT_ID = " 251476208bcc46aeb893f864e0aa0667";
+    private static final String CLIENT_SECRET = "9b8eb66cc62b4e3d916594fb3f6f9ba2";
     private static final String TOKEN_URL = "https://accounts.spotify.com/api/token";
 
     public static String getAccessToken() throws Exception {
